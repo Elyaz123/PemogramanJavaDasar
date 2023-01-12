@@ -1,6 +1,6 @@
 package chapter1_intro.exercise;
 
-public class Exercises110 {
+public class Exercises110AverageSpeedInMiles {
     public static void main(String[] args) {
         double mile = (14 * 1.6);
         double hours = (45.5 * 60);

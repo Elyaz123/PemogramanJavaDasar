@@ -1,6 +1,6 @@
 package chapter1_intro.exercise;
 
-public class Exercises112 {
+public class Exercises112AverageSpeedInKilometers {
     public static void main(String[] args) {
         double km = (24 * 1.6);
         double hours = (100.35 / 60);

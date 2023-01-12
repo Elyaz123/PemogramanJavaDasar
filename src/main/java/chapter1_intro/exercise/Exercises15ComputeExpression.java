@@ -1,6 +1,6 @@
 package chapter1_intro.exercise;
 
-public class Exercises15 {
+public class Exercises15ComputeExpression {
     public static void main(String[] args) {
         double a = 9.5 * 4.5;
         double b = 2.5 * 3;
