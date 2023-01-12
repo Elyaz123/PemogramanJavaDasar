@@ -8,5 +8,9 @@ public class Exercises420ProcessAString {
 
         // Prompt the user to enter a string
         System.out.print("Enter a string ");
+        String str = input.nextLine();
+
+        // Display the string's length and this character
+        System.out.println(str + " has a length of " + str.length() + " and its first character is " + str.charAt(0));
     }
 }
