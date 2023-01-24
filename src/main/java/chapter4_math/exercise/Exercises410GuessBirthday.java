@@ -87,6 +87,6 @@ public class Exercises410GuessBirthday {
         if (Character.toTitleCase(answer) == 'Y')
             day =+ 16;
 
-        System.out.println('\nYour birthday is ' + day + "!");
+        System.out.println("\nYour birthday is " + day + "!");
     }
 }
