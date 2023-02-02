@@ -1,9 +1,8 @@
 package chapter5_loop.ujian;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class UjianKonversiBilangan5 {
+public class UjianKonversiBilangan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -31,6 +30,8 @@ public class UjianKonversiBilangan5 {
                 System.out.println("Please input Binary number: ");
                 int binary = input.nextInt();
                 int decimal = 0, i = 0, octal = 0;
+                long bin;
+                bin = binary;
 
                 while (binary != 0) {
                     decimal = (int) (decimal + (binary % 10) * Math.pow(2, i));
@@ -43,7 +44,7 @@ public class UjianKonversiBilangan5 {
                     decimal = decimal / 8;
                     i = i * 10;
                 }
-                System.out.println("value of " + binary + " in Binary is a " + octal + " in Octal");
+                System.out.println("value of " + bin + " in Binary is a " + octal + " in Octal");
             }
 
             //Convert Binary to Decimal
@@ -52,13 +53,15 @@ public class UjianKonversiBilangan5 {
                 System.out.println("Please input Binary Number : ");
                 int binary = input.nextInt();
                 int digit, decimal = 0, i = 1;
+                long bin;
+                bin = binary;
                 while (binary != 0) {
                     digit = binary % 10;
                     decimal = decimal + (digit * i);
                     i = i * 2;
                     binary = binary / 10;
                 }
-                System.out.println("value of " + binary + " in Binary is a " + decimal + " in Decimal");
+                System.out.println("value of " + bin + " in Binary is a " + decimal + " in Decimal");
             }
 
             //Convert Binary to Hexadecimal
