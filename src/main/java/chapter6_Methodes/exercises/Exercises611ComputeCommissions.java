@@ -5,12 +5,13 @@ public class Exercises611ComputeCommissions {
         System.out.println("\n SalesAmount     Commission");
         System.out.println("-----------------------------");
         for (double salesAmount = 10000; salesAmount <= 100000; salesAmount += 5000) {
-            System.out.printf(" %-1 6.0f", salesAmount);
-            System.out.printf("%9.1f\n", computeCommission(salesAmount));
+            System.out.printf(" %-16.0f", salesAmount);
+            System.out.printf("%8.1f\n", computeCommission(salesAmount));
         }
     }
     public  static double computeCommission(double salesAmount) {
-        double balance, commissin;
+        double balance,
+                commissin;
         balance = commissin = 0.0;
 
         if (salesAmount >= 10000.01)
